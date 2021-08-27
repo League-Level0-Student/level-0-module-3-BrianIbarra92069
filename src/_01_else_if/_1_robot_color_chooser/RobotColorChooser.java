@@ -2,6 +2,9 @@
 package _01_else_if._1_robot_color_chooser;
 
 import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+
 import java.awt.Color;
 
 public class RobotColorChooser {
@@ -16,9 +19,16 @@ public class RobotColorChooser {
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
 		
 
+		Robot rob = new Robot();
+
+		rob.setSpeed(100);
+		rob.penDown();
+		rob.move(100);
+		rob.turn(90);
 		
-
-
-
+		
+		
+		
+		
 	}
 }
