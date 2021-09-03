@@ -21,11 +21,24 @@ public class RobotColorChooser {
 
 		Robot rob = new Robot();
 
-		rob.setSpeed(100);
+		rob.setSpeed(50);
 		rob.penDown();
 		rob.move(100);
 		rob.turn(90);
-		
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(0);
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(90);
 		
 		
 		
