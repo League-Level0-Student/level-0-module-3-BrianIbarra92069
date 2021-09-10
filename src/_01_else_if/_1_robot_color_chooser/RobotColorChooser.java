@@ -39,6 +39,12 @@ public class RobotColorChooser {
 		rob.turn(90);
 		rob.move(100);
 		rob.turn(90);
+		rob.move(100);
+		rob.turn(0);
+		rob.move(100);
+		rob.turn(90);
+		rob.move(100);
+		rob.turn(90);
 		
 		
 		
