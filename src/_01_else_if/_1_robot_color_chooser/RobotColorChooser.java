@@ -28,7 +28,7 @@ public class RobotColorChooser {
 		rob.setPenColor(Color.red);{
 			
 		}
-		els
+		else(answer.contains())
 		
 		//4. Ask the user what color pen they would like the robot to draw with
 		
