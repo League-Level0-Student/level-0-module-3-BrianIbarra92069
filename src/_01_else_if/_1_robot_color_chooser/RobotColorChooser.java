@@ -24,12 +24,17 @@ public class RobotColorChooser {
 		
 		String answer = JOptionPane.showInputDialog("What color would you like?");
 		
-		if(answer.contains("red") )
-		rob.setPenColor(Color.red);{
+		if(answer.contains("Red") ) {
+		rob.setPenColor(Color.red);
 			
 		}
-		else(answer.contains())
+		else if(answer.contains("Cyan") ) { 
+		rob.setPenColor(Color.CYAN);
+		}
+		else if(answer.contains("Pink")) {
+		rob.setPenColor(Color.pink);
 		
+		}	
 		//4. Ask the user what color pen they would like the robot to draw with
 		
 		//5. Use an if/else statement to set the pen color that the user requested
