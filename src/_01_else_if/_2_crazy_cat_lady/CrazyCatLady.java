@@ -3,6 +3,8 @@ package _01_else_if._2_crazy_cat_lady;
 
 import java.net.URI;
 
+import javax.swing.JOptionPane;
+
 public class CrazyCatLady {
 	public static void main(String[] args) {
 		
@@ -14,6 +16,10 @@ public class CrazyCatLady {
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 		
 		
+		String Answer =	JOptionPane.showInputDialog("How many cats do you have?");
+		
+		int number = Integer.parseInt();
+		double decimal = Double.parseDouble(Answer)
 		
 		
 		
