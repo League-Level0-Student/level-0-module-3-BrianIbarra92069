@@ -18,11 +18,23 @@ public class CrazyCatLady {
 		
 		String Answer =	JOptionPane.showInputDialog("How many cats do you have?");
 		
-		int number = Integer.parseInt();
-		double decimal = Double.parseDouble(Answer)
+		int number = Integer.parseInt(Answer);
 		
 		
+		if (number > 3) {
+			JOptionPane.showMessageDialog(null, "Wow Your a Crazy Cat Lady");
 		
+		else if (number < 3 &&)
+		JOptionPane.showMessageDialog(null, "");
+			
+			
+			//number < 3 &&
+			
+			
+			
+			
+			
+		}
 		
 	}
 
