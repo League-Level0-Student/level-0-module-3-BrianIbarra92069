@@ -24,7 +24,7 @@ public class CrazyCatLady {
 		if (number > 3) {
 			JOptionPane.showMessageDialog(null, "Wow Your a Crazy Cat Lady");
 		
-		else if (number < 3 &&)
+		else if (number < 3 && number > 0) {
 		JOptionPane.showMessageDialog(null, "That's Nice");
 			
 			
