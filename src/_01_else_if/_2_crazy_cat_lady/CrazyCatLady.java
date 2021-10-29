@@ -28,7 +28,7 @@ public class CrazyCatLady {
 		JOptionPane.showMessageDialog(null, "That's Nice");
 			
 			
-			//number < 3 &&
+			
 			
 			
 			
