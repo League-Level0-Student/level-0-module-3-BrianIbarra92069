@@ -18,9 +18,12 @@ public class HighLowGame {
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
 		String answer = JOptionPane.showInputDialog("guess a number, any number");
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
-			int answer = Integer.parseInt();
+			int answer = (Integer.parseInt(random));
 			// 5. if the guess is correct
-			if answer = 	
+			if (answer > random) {
+				JOptionPane.showMessageDialog(null, "You won!");
+			}
+			
 			// 6. Win
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
 			// 7. if the guess is high
