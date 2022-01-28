@@ -24,7 +24,7 @@ public class HighLowGame {
 				JOptionPane.showMessageDialog(null, "You won!");
 			}
 			
-			System.exit(0);
+			
 			// 6. Win
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
 			// 7. if the guess is high
