@@ -16,13 +16,21 @@ public class HighLowGame {
 		// 11. Repeat steps 1 to 10 ten times
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
-		String answer = JOptionPane.showInputDialog("guess a number, any number");
+		int answer = Integer.parseInt(JOptionPane.showInputDialog("guess a number, any number"));
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
-			int answer = (Integer.parseInt(answer));
 			// 5. if the guess is correct
-			if (answer > random) {
+			if (answer == random) {
 				JOptionPane.showMessageDialog(null, "You won!");
+			
+				else if (answer )
+			
+			
+			
+			
 			}
+			
+			
+			
 			
 			
 			// 6. Win
