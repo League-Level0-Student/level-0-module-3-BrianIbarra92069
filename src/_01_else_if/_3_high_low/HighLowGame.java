@@ -22,7 +22,7 @@ public class HighLowGame {
 			if (answer == random) {
 				JOptionPane.showMessageDialog(null, "You won!");
 			
-				else if (answer )
+				else if (answer < # && number > #)
 			
 			
 			
