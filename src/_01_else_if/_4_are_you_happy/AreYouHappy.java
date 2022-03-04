@@ -8,14 +8,15 @@ public class AreYouHappy {
 		// TODO Auto-generated method stub
 
 
-	string answer = JOptionPane.showInputDialog(null, "Are you happy");
+	String answer = JOptionPane.showInputDialog(null, "Are you happy");
 	
 	if(answer.contains("yes")) {
 	JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 	
 	}
 	
-	else
+	else if(answer.contains("No")) {
+	JOptionPane.showInputDialog(null, "Do you want to be happy"):
 	
 	
 	
