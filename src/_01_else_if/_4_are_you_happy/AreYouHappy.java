@@ -13,12 +13,16 @@ public class AreYouHappy {
 	if(answer.contains("yes")) {
 	JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 	
+	}	
+	else if(answer.contains("No") ) {
+	JOptionPane.showInputDialog(null, "Do you want to be happy");
+	
+	if (answer.contains(yes) ) {
+	JOptionPane.showConfirmDialog(parentComponent, "message")
 	}
-	
-	else if(answer.contains("No")) {
-	JOptionPane.showInputDialog(null, "Do you want to be happy"):
-	
-	
+	else if (answer.contains("No") ) {
+		JOptionPane.
+	}
 	
 	
 	
