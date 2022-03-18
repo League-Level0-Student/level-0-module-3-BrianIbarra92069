@@ -17,11 +17,11 @@ public class AreYouHappy {
 	else if(answer.contains("No") ) {
 	JOptionPane.showInputDialog(null, "Do you want to be happy");
 	
-	if (answer.contains(yes) ) {
-	JOptionPane.showConfirmDialog(parentComponent, "message")
+	if (answer.contains("yes") ) {
+	JOptionPane.showMessageDialog(null, "Change something");
 	}
 	else if (answer.contains("No") ) {
-		JOptionPane.
+		JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 	}
 	
 	
@@ -56,4 +56,5 @@ public class AreYouHappy {
 	
 	}
 
+}
 }
