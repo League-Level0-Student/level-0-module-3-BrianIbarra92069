@@ -41,17 +41,17 @@ public class Elseifownadventure {
 	String observationTool = "";
 	
 	if(choice == 0) {
-		JOptionPane.showMessageDialog(null, "You picked Flashlight");
+		JOptionPane.showMessageDialog(null, "You picked Hammer");
 		observationTool = "Hammer";
 	}
 	
 	if(choice == 1) {
-		JOptionPane.showMessageDialog(null, "You picked Glowstick");
+		JOptionPane.showMessageDialog(null, "You picked Saw");
 		observationTool = "Saw";
 	}
 	
 	if(choice == 2) {
-		JOptionPane.showMessageDialog(null, "You picked Phone");
+		JOptionPane.showMessageDialog(null, "You picked Razor Knife");
 		observationTool = "Razor Knife";
 	}
 	
@@ -85,33 +85,48 @@ public class Elseifownadventure {
 			 
 		}
 	
-		choice = JOptionPane.showOptionDialog(null, "Great now you are prepared, now in this house there is only 4 room, and each room has a spirit with different hostile level, Room 1 has a very shy Spirit, Room 2 has a Spirit that likes play jokes all around  ", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
-				new String[] { "Granola Bars x8", "Apples x3", "Popcorn x1", "Cookies x10" }, null);
+		choice = JOptionPane.showOptionDialog(null, "Great now you are prepared, now in this house there is only 4 room, and each room has a spirit with different hostile level, which room are you choosing?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+				new String[] { "Room 1", "Room 2", "Room 3", "Room 4" }, null);
 		
-		String  = "";
+		String roomselection = "";
 		
 		if(choice == 0) {
-			JOptionPane.showMessageDialog(null, "You Choose the Granola Bars");
-			 = "Granola Bars x8";
+			JOptionPane.showMessageDialog(null, "You picked Room 1");
+			roomselection = "Room 1";
+		
+			choice = JOptionPane.showOptionDialog(null, "This room has a very shy Spirit, and it will try to hurt you if you make any sounds , would you like to enter", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] { "No", "yes" }, null);
+		
 		}
 		
 		if(choice == 1) {
-			JOptionPane.showMessageDialog(null, "You chose the Apples");
-			 = "Apples x3";
+			JOptionPane.showMessageDialog(null, "You picked Room 2");
+			roomselection = "Room 2";
+			
+			choice = JOptionPane.showOptionDialog(null, "This room has ", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] { "No", "yes" }, null);
+		
 		}
 		
 		if(choice == 2) {
-			JOptionPane.showMessageDialog(null, "You chose The Popcorn");
-			 = "Popcorn x1";
+			JOptionPane.showMessageDialog(null, "You picked Room 3");
+			roomselection = "Room 3";
+		
+			choice = JOptionPane.showOptionDialog(null, "This room has a very shy Spirit?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] { "No", "yes" }, null);
+		
 		}
 		
 		if(choice == 3) {
-			JOptionPane.showMessageDialog(null, "You chose the Cookies");
-			 = "Cookies x10";
+			JOptionPane.showMessageDialog(null, "You picked Room 4");
+			roomselection = "Room 4";
 			 
+			choice = JOptionPane.showOptionDialog(null, "This room has a very shy Spirit?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+					new String[] { "No", "yes" }, null);
+		
 		}
 	
-	
+		
 	
 	
 	
