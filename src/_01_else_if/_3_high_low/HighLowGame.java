@@ -35,7 +35,7 @@ public class HighLowGame {
 				JOptionPane.showMessageDialog(null, "The number you were thinking was too high, Try again next time");
 			
 			} else if (answer < random) {
-				JOptionPane.showMessageDialog(null, "The number you wer thinking was too low, try again next time");
+				JOptionPane.showMessageDialog(null, "The number you were thinking was too low, try again next time");
 			
 			
 			

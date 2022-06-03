@@ -41,17 +41,17 @@ public class Elseifownadventure {
 	String observationTool = "";
 	
 	if(choice == 0) {
-		JOptionPane.showMessageDialog(null, "You picked Hammer");
+		JOptionPane.showMessageDialog(null, "You picked the Hammer");
 		observationTool = "Hammer";
 	}
 	
 	if(choice == 1) {
-		JOptionPane.showMessageDialog(null, "You picked Saw");
+		JOptionPane.showMessageDialog(null, "You picked the Saw");
 		observationTool = "Saw";
 	}
 	
 	if(choice == 2) {
-		JOptionPane.showMessageDialog(null, "You picked Razor Knife");
+		JOptionPane.showMessageDialog(null, "You picked the Razor Knife");
 		observationTool = "Razor Knife";
 	}
 	
@@ -100,22 +100,7 @@ public class Elseifownadventure {
 			choice = JOptionPane.showOptionDialog(null, "This room has a very shy Spirit, and it will try to hurt you if you try to do anything that will upset it , would you like to enter", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "No", "yes" }, null);
 		
-			choice = JOptionPane.showOptionDialog(null, "What are you going to do or use to find these hidden rooms" , "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
-					new String[] { "use your item to break the world", "Destract the Spirit with something" }, null);
-			
-			String yourtools = "";
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		}	
-		}
+		}		
 		
 		if(choice == 1) {
 			JOptionPane.showMessageDialog(null, "You picked Room 2");
@@ -123,16 +108,7 @@ public class Elseifownadventure {
 			
 			choice = JOptionPane.showOptionDialog(null, "This room has a Spirit that like to mess around, but hates it when you ruin their fun, would you like to enter", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "No", "yes" }, null);
-		
-			choice = JOptionPane.showOptionDialog(null, "Great now you are prepared, now in this house there is only 4 room, and each room has a spirit with different hostile level, which room are you choosing?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
-					new String[] { "Room 1", "Room 2", "Room 3", "Room 4" }, null);
 			
-			String yourtools = "";
-		
-		
-		
-		
-		
 		
 		}
 		
@@ -143,19 +119,6 @@ public class Elseifownadventure {
 			choice = JOptionPane.showOptionDialog(null, "This room has a spirit that perfers to have peace by itself and if you disturb them, they will get very agressive, would you like to enter?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "No", "yes" }, null);
 		
-			choice = JOptionPane.showOptionDialog(null, "Great now you are prepared, now in this house there is only 4 room, and each room has a spirit with different hostile level, which room are you choosing?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
-					new String[] { "Room 1", "Room 2", "Room 3", "Room 4" }, null);
-			
-			String yourtools = "";
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		}
 		
 		if(choice == 3) {
@@ -165,17 +128,12 @@ public class Elseifownadventure {
 			choice = JOptionPane.showOptionDialog(null, "This room has a spirit that controls others and if you are brave enough to defeat it, every spirit will dissapear and everything will go back to normal, do want to enter?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "No" , "Yes" }, null);
 		
-		
-		
-		
-		
-		
-		
-		
-		
 		}
 	
+		choice = JOptionPane.showOptionDialog(null, "alright, you chose the room that you wanted, now, what tool are you going to use?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
+				new String[] { System.out.println (lightsource + food + observationTool)  }, null);
 		
+		String yourtools = "";
 	
 	
 	
