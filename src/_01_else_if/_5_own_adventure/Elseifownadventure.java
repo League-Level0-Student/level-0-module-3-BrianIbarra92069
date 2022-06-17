@@ -131,7 +131,7 @@ public class Elseifownadventure {
 		}
 	
 		choice = JOptionPane.showOptionDialog(null, "alright, you chose the room that you wanted, now, what tool are you going to use?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
-				new String[] { System.out.println (lightsource + food + observationTool)  }, null);
+				new String[] { System.out.println(); }, null);
 		
 		String yourtools = "";
 	
