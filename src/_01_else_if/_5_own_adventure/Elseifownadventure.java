@@ -133,7 +133,7 @@ public class Elseifownadventure {
 		choice = JOptionPane.showOptionDialog(null, "alright, you chose the room that you wanted, now, what tool are you going to use?", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 				new String[] { }, null);
 		
-		String yourtools = System.out.println( ) 
+		String yourtools = System.out.println( );
 	
 	
 	
